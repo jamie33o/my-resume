@@ -89,11 +89,13 @@ header {
     background: url(../images/profile-pic.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 360px;
+    background-size: contain;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
 }
 
 .name {
@@ -175,6 +177,7 @@ footer {
     color: #fafafa;
     min-height: 120px;
     margin: 0;
+    bottom: 0;
 }
 
 .cv-pdf i {
@@ -336,14 +339,15 @@ footer {
 .contact-heading {
     font-family: "Exo", sans-serif;
     font-weight: 300;
-    margin-top: 25px;
+    margin-top: 30px;
     margin-bottom: 20px;
 }
 
 .center-form {
-    padding-top: 10px;
-    margin: 0 auto;
+    padding-top: 20px;
+    margin: auto auto;
     max-width: 70%;
+    height: 500px;
 }
 
 button[type="submit"] {
